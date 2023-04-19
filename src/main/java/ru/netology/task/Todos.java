@@ -13,6 +13,7 @@ public class Todos {
     }
 
     public void add(Task task) {
+
         tasks = addToArray(tasks, task);
     }
     public Task[] findAll() {
