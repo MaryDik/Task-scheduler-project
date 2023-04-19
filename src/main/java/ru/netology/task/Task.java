@@ -1,3 +1,4 @@
+package ru.netology.task;
 
 import java.util.Objects;
 
@@ -27,8 +28,12 @@ public class Task {
 
         return Objects.hash(id);
     }
+
     public boolean matches(String query) {
+
         return false;
     }
+
+
 }
 
